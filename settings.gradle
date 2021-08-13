@@ -1,0 +1,2 @@
+rootProject.name = "Mobile House"
+include ':app'
