@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/w/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/w/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/w/MAD-Project/app/src/main/res/layout/checkout.xml" value="0.264" />
+        <entry key="..\:/w/MAD-Project/app/src/main/res/layout/pay_via_cards.xml" value="0.25416666666666665" />
+        <entry key="..\:/w/MAD-Project/app/src/main/res/layout/payment_methods.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
