@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Mobile House</string>
+    <string name="cus_rev">"  Enter your review here..."</string>
+    <string name="bts_delete">DELETE</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="btn_payment">Proceed to Pay</string>
+    <string name="delivery_update">Delivery Updates </string>
+    <string name="update_name" />
+    <string name="update_no" />
+    <string name="update_address" />
+    <string name="btn_update1" />
+    <string name="btn_update2">UPDATE</string>
+    <string name="btn_update3">Confirm</string>
+    <string name="rating">My Reviews</string>
+    <string name="rate_cus_name">Name : </string>
+    <string name="ater_cus_add_name">L.M.xxxxxxxxx</string>
+    <string name="rate_star">Rating :</string>
+    <string name="rate_reviwe">Reviews : </string>
+    <string name="rate_cus_feed">Great service would recommend to anyone who is looking for a contract phone ordered online arrived next day .</string>
+    <string name="btn_my_reviews">My Reviews</string>
+    <string name="feed_rev5">Review</string>
+    <string name="abut_us">About Us</string>
+    <string name="wel2">Welcome to Mobile House</string>
+    <string name="wel_cum">Welcome to Mobile House</string>
+    <string name="aboutus">We provide our clients with all kinds of smartphones and the best prices available in the market as well as our high-quality smartphones, fast shipping, and good after-sales services.</string>
+    <string name="aboutus_mission">Mission</string>
+    <string name="about_us_mission">Purchasing phones from our shop is definitely our goal to please the customer and provide the best shopping experience</string>
 </resources>

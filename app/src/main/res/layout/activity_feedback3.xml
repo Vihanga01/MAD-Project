@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/bg"
+    app:layout_marginBaseline="10dp"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/cus_rev"
+        android:layout_width="182dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif"
+        android:text="Leave  a  Review"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/cu_rate"
+        android:layout_width="177dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Click The Stars To Rate Us "
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cus_rev" />
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:progressBackgroundTint="#FFDF00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cu_rate" />
+
+    <EditText
+        android:id="@+id/cus_rev3"
+        android:layout_width="378dp"
+        android:layout_height="130dp"
+        android:background="#FFFCFC"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="  Enter your review here..."
+        android:inputType="@string/cus_rev"
+        android:textColor="#0E0E0E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="217dp"
+        android:layout_height="51dp"
+        android:text="I accept the Terms in"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Privacy Policy"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/feedback_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD YOUR REVIEW "
+        android:textColor="#050404"
+        app:backgroundTint="#8295FF"
+        app:iconTint="#0B0A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_my_reviews"
+        android:textColor="#020202"
+        app:backgroundTint="#8295FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="@string/feed_rev5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="231dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

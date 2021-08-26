@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cus_no2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Delivery">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/itm_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="201dp"
+        android:layout_height="269dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/d4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="227dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d23" />
+
+    <TextView
+        android:id="@+id/cus_name"
+        android:layout_width="145dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="16dp"
+        android:text="Customer Name  :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cus_no"
+        app:layout_constraintEnd_toStartOf="@+id/cus_name2" />
+
+    <TextView
+        android:id="@+id/cus_no"
+        android:layout_width="165dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="Phone Number :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cus_address"
+        app:layout_constraintEnd_toStartOf="@+id/cus_no3" />
+
+    <TextView
+        android:id="@+id/cus_address"
+        android:layout_width="178dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Adderss :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/cus_address2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/cus_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="L.M.xxxxxxxxx"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/cus_no3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="077xxxxxxx"
+        app:layout_constraintTop_toBottomOf="@+id/cus_name2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp" />
+
+    <TextView
+        android:id="@+id/cus_address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="No.xxxxxxxxxxxxxxxx"
+        app:layout_constraintTop_toBottomOf="@+id/cus_no3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp" />
+
+    <TextView
+        android:id="@+id/itm_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="RS.xxxx"
+        app:layout_constraintTop_toBottomOf="@+id/cus_no3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp" />
+
+    <TextView
+        android:id="@+id/cus_price"
+        android:layout_width="169dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Price : "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/itm_price2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bts_delete"
+        android:textColor="#0C0A0A"
+        android:textSize="14sp"
+        app:backgroundTint="#8295FF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_update"
+        android:textColor="#000000"
+        app:backgroundTint="#8295FF"
+        app:iconTint="#040202"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="193dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:fontFamily="@font/arima_madurai_extralight"
+        android:text="@string/btn_payment"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#8295FF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="215dp"
+        android:layout_height="318dp"
+        app:srcCompat="@drawable/delivery"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
