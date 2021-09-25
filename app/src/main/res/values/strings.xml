@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Mobile House</string>
+    <string name="txt_ord">ORDER</string>
+    <string name="btn_mob">MOBILE PHONES</string>
+    <string name="btn_acs">ACCESSORIES</string>
+    <string name="txt_mob">Mobile</string>
+    <string name="btn_view1">VIEW</string>
+    <string name="btn_view2">VIEW</string>
+    <string name="btn_view3">VIEW</string>
+    <string name="btn_view4" />
+    <string name="btn_view5">VIEW</string>
+    <string name="tv_hm">ORDER ITEMS</string>
+    <string name="tv_cart">CART</string>
+    <string name="btn_ac">ADD TO CART ITEMS</string>
+    <string name="btn_vc">VIEW CART</string>
 </resources>

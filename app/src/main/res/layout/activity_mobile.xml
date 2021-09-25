@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mobile">
+
+    <TextView
+        android:id="@+id/txt_mob"
+        android:layout_width="244dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/txt_mob"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="115dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mob"
+        app:srcCompat="@drawable/iphone_6s_plus_6" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="156dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/im1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mob"
+        app:srcCompat="@drawable/gear_samsung_galaxy_a01_back_source_samsung" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="130dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_view1"
+        app:srcCompat="@drawable/iphone6p_select_2014__1_" />
+
+    <Button
+        android:id="@+id/btn_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_view1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im1" />
+
+    <Button
+        android:id="@+id/btn_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toEndOf="@+id/btn_view1"
+        app:layout_constraintTop_toBottomOf="@+id/im2" />
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="129dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toEndOf="@+id/im3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_view2"
+        app:srcCompat="@drawable/ccccccc" />
+
+    <Button
+        android:id="@+id/btn_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_view3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im3" />
+
+    <Button
+        android:id="@+id/btn_view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toEndOf="@+id/btn_view3"
+        app:layout_constraintTop_toBottomOf="@+id/im4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
