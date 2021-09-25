@@ -89,4 +89,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="99dp"
+        android:layout_height="50dp"
+        android:text="@string/feedback_delete"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="493dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
