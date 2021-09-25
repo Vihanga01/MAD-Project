@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mobile House</string>
+    <string name="tv_cuslogin_topic">Mobile House</string>
+    <string name="et_cuslogin_username">Username</string>
+    <string name="et_cuslogin_Password">Password</string>
+    <string name="tv_cuslogin_forget_pw">Forget Password?</string>
+    <string name="bt_cuslogin_login">Login</string>
+    <string name="tv_cuslogin_signup">Sign Up</string>
 </resources>
