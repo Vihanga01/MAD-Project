@@ -6,4 +6,24 @@
     <string name="tv_cuslogin_forget_pw">Forget Password?</string>
     <string name="bt_cuslogin_login">Login</string>
     <string name="tv_cuslogin_signup">Sign Up</string>
+
+    <string name="et_cusprofile_name">Name</string>
+    <string name="et_cusprofile_email">Email</string>
+    <string name="et_cusprofile_address">Address</string>
+    <string name="et_cusprofile_phone">Phone No</string>
+    <string name="rb_cusprofile_male">Male</string>
+    <string name="rb_cusprofile_female">Female</string>
+    <string name="et_cusprofile_pw">Password</string>
+    <string name="bt_cusprofile_submit">Submit</string>
+
+    <string name="et_profileup_name">Name</string>
+    <string name="et_profileup_email">Email</string>
+    <string name="et_profileup_phone">Phone No</string>
+    <string name="rb_profileup_male">Male</string>
+    <string name="rb_profileup_female">Female</string>
+    <string name="et_profileup_cupw">Currunt Password</string>
+    <string name="et_profileup_newpw">New Password</string>
+    <string name="et_profileup_repw">Re-enter new Password</string>
+    <string name="bt_profileup_update">Update</string>
+
 </resources>
