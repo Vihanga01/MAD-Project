@@ -26,4 +26,10 @@
     <string name="et_profileup_repw">Re-enter new Password</string>
     <string name="bt_profileup_update">Update</string>
 
+    <string name="et_additem_name">Item Name</string>
+    <string name="et_additem_Price">Item Price</string>
+    <string name="tv_additem_addimg">Add image of Item</string>
+    <string name="et_additem_about">About Item</string>
+    <string name="bt_additem_confirm">CONFIRM</string>
+
 </resources>
