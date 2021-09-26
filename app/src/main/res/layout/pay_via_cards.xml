@@ -18,12 +18,12 @@
         app:srcCompat="@drawable/pic10" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/add_cardnum"
         android:layout_width="276dp"
         android:layout_height="46dp"
         android:ems="10"
+        android:hint="@string/add_cardnum"
         android:inputType="textPersonName"
-        android:text="Card Number"
         android:textColor="#6E6D6D"
         android:textColorHint="#474444"
         android:textSize="20sp"
@@ -32,12 +32,12 @@
         tools:layout_editor_absoluteY="287dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/add_monyear"
         android:layout_width="276dp"
         android:layout_height="46dp"
         android:ems="10"
+        android:hint="@string/add_monyear"
         android:inputType="textPersonName"
-        android:text="Month/Year"
         android:textColor="#6E6D6D"
         android:textColorHint="#474444"
         android:textSize="20sp"
@@ -46,12 +46,12 @@
         tools:layout_editor_absoluteY="342dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/add_cvv"
         android:layout_width="276dp"
         android:layout_height="46dp"
         android:ems="10"
+        android:hint="@string/add_cvv"
         android:inputType="textPersonName"
-        android:text="CVV"
         android:textColor="#6E6D6D"
         android:textColorHint="#474444"
         android:textSize="20sp"
@@ -60,12 +60,12 @@
         tools:layout_editor_absoluteY="398dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/add_name"
         android:layout_width="276dp"
         android:layout_height="46dp"
         android:ems="10"
+        android:hint="@string/add_name"
         android:inputType="textPersonName"
-        android:text="Card Holder Name"
         android:textColor="#6E6D6D"
         android:textColorHint="#474444"
         android:textSize="20sp"
@@ -74,23 +74,23 @@
         tools:layout_editor_absoluteY="456dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/bt_paynow"
         android:layout_width="155dp"
         android:layout_height="52dp"
         android:background="#009688"
-        android:text="Pay Now"
+        android:text="@string/bt_paynow"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="526dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/bt_payments"
         android:layout_width="155dp"
         android:layout_height="52dp"
         android:layout_marginBottom="80dp"
         android:background="#009688"
-        android:text="My Payment Methods"
+        android:text="@string/bt_payments"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

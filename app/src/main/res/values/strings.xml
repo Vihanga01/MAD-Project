@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Mobile House</string>
+    <string name="bt_paycash">Pay via Cash</string>
+    <string name="add_cardnum">Card Number</string>
+    <string name="add_monyear">Month/Year</string>
+    <string name="add_cvv">CVV</string>
+    <string name="add_name">Card Holder Name</string>
+    <string name="bt_paynow">Pay Now</string>
+    <string name="bt_payments">My payment methods</string>
+    <string name="bt_delete">Delete</string>
+    <string name="bt_addanother">Add Another Card</string>
 </resources>
